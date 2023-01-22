@@ -1,0 +1,53 @@
+<div class="card p-1">
+  <span class="border-bottom-2 border-500 p-2 my-3">
+    <h1 class="text-center m-3">{{ "Filters" | uppercase }}</h1>
+  </span>
+  <div class="section" style="height: '70vh'">
+    <div *ngFor="let attribute of formAttributes" class="m-3">
+      <span *ngIf="attribute.type === formType.Text" class="p-float-label">
+        <input
+          class="mb-2"
+          id="float-input"
+          type="text"
+          pInputText
+          [(ngModel)]="attribute.value"
+        />
+        <label for="float-input">{{ attribute.title | titlecase }}</label>
+      </span>
+
+      <span
+        *ngIf="attribute.type === formType.Dropdown"
+        [ngSwitch]="attribute.multiple"
+        class="p-float-label"
+      >
+        <p-dropdown
+          *ngSwitchDefault
+          class="mb-2"
+          [options]="countries"
+          [(ngModel)]="attribute.value"
+          optionLabel="name"
+        ></p-dropdown>
+        <p-multiSelect
+          *ngSwitchCase="true"
+          class="mb-2"
+          [options]="countries"
+          [(ngModel)]="attribute.value"
+          optionLabel="name"
+        ></p-multiSelect>
+
+        <label for="float-input">{{ attribute.title | titlecase }}</label>
+      </span>
+
+      <span *ngIf="attribute.type === formType.Date" class="p-float-label">
+        <p-calendar class="mb-2" [(ngModel)]="attribute.value"></p-calendar>
+        <label for="float-input">{{ attribute.title | titlecase }}</label>
+      </span>
+    </div>
+    <p-button
+      class="flex align-items-center justify-content-center"
+      label="Filter"
+      icon="pi pi-filter"
+      (click)="filter()"
+    ></p-button>
+  </div>
+</div>

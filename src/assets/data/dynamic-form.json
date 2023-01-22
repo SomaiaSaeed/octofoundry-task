@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Email",
+    "type": "text"
+  },
+  {
+    "title": "Phone",
+    "type": "text"
+  },
+  {
+    "title": "Name",
+    "type": "text"
+  },
+  {
+    "title": "Company",
+    "type": "text"
+  },
+  {
+    "title": "country",
+    "type": "dropdown",
+    "api": "https://restcountries.com/v3.1/region/africa",
+    "multiple": false
+  },
+  {
+    "title": "Date",
+    "type": "date"
+  }
+]

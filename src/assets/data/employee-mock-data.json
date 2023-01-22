@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Somaia",
+    "phone": "0123456789",
+    "email": "somaia@gmail.com",
+    "date": "2Jan2022",
+    "salary": 1000,
+    "country": "Egypt",
+    "company": "ABC"
+  },
+  {
+    "id": 2,
+    "name": "Mai",
+    "phone": "+20123456",
+    "email": "mai@gmail.com",
+    "date": "28Feb2020",
+    "salary": 2000,
+    "country": "Morocco",
+    "company": "Google"
+  },
+  {
+    "id": 3,
+    "name": "Ahmed",
+    "phone": "+891098908",
+    "email": "ahmed@yahoo.com",
+    "date": "1Oct1995",
+    "salary": 9000,
+    "country": "Mali",
+    "company": "Yahoo"
+  },
+  {
+    "id": 4,
+    "name": "Yara",
+    "phone": "+99077781123",
+    "email": "yara@facebook.com",
+    "date": "9May2028",
+    "salary": 2,
+    "country": "Kenya",
+    "company": "Facebook"
+  },
+  {
+    "id": 5,
+    "name": "Mohamed",
+    "phone": "+07899394",
+    "email": "mohamed@ABC.com",
+    "date": "11Sep2016",
+    "salary": 7000,
+    "country": "Kenya",
+    "company": "ABC"
+  },
+  {
+    "id": 6,
+    "name": "Omar",
+    "phone": "+2009866743",
+    "email": "omar@microsoft.com",
+    "date": "2Aug2000",
+    "salary": 20000,
+    "country": "Egypt",
+    "company": "Microsoft"
+  },
+  {
+    "id": 7,
+    "name": "Salah",
+    "phone": "+45454660003",
+    "email": "salah@microsoft.com",
+    "date": "18May2017",
+    "salary": 80000,
+    "country": "Tunisia",
+    "company": "Microsoft"
+  },
+  {
+    "id": 8,
+    "name": "Amr",
+    "phone": "+9008445544",
+    "email": "amr@hp.com",
+    "date": "6Feb2021",
+    "salary": 20000,
+    "country": "Tunisia",
+    "company": "HP "
+  },
+  {
+    "id": 9,
+    "name": "Sara",
+    "phone": "+444477722",
+    "email": "sara@google.com",
+    "date": "3Dec2032",
+    "salary": 20000,
+    "country": "Mali",
+    "company": "Google"
+  },
+  {
+    "id": 10,
+    "name": "Alaa",
+    "phone": "+99900008833",
+    "email": "alaa@google.com",
+    "date": "4Apr2019",
+    "salary": 4000,
+    "country": "Egypt",
+    "company": "Google"
+  },
+  {
+    "id": 11,
+    "name": "Ayman",
+    "phone": "+2222244208",
+    "email": "ayman@yahoo.com",
+    "date": "13Mar2020",
+    "salary": 4000,
+    "country": "Morocco",
+    "company": "Yahoo"
+  },
+  {
+    "id": 12,
+    "name": "Noha",
+    "phone": "+2222244208",
+    "email": "noha@bmw.com",
+    "date": "7Oct2014",
+    "salary": 40000,
+    "country": "Egypt",
+    "company": "BMW"
+  }
+]

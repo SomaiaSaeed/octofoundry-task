@@ -1,0 +1,38 @@
+:host {
+  ::ng-deep .p-inputtext,
+  ::ng-deep.p-calendar {
+    padding: 0.4rem;
+    width: 100%;
+  }
+
+  ::ng-deep.p-dropdown {
+    padding: 0 0.4rem;
+    width: 100%;
+  }
+  ::ng-deep .p-float-label .p-inputwrapper-filled ~ label {
+    top: -0.4rem;
+  }
+}
+
+.section::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+.section::-webkit-scrollbar {
+  width: 8px;
+  margin-top: 10px;
+  background-color: #f5f5f5;
+}
+
+.section::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: rgb(160, 160, 160);
+}
+
+.section {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 10px;
+}
